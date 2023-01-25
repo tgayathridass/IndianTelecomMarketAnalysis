@@ -23,7 +23,7 @@ object IndianTelecomAnalysis extends App {
   val inputfile = spark.read.format("csv")
                   .option("header",true)
                   .option("inferSchema",true)
-                  .option("path","C:/Users/Gayathri Thulasidass/OneDrive/Documents/Indian telecommunications market.csv")
+                  .option("path","C:/Users/Documents/Indian telecommunications market.csv")
                   .load
    inputfile.show()
    
